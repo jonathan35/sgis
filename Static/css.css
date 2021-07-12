@@ -1,0 +1,98 @@
+/* CSS Document */
+
+.navigation{ font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#669922}
+.navigation a:link{ font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#669922; text-decoration:none}
+.navigation a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#73A4D7; text-decoration:underline}
+.navigation a:visited{ font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#669922; text-decoration:none}
+.navigation a:visited:hover{ font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#73A4D7; text-decoration:underline}
+
+.navigationtop{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#669922}
+.navigationtop a:link{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#669922; text-decoration:none}
+.navigationtop a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#669922; text-decoration:underline}
+.navigationtop a:visited{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#669922; text-decoration:none}
+.navigationtop a:visited:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#669922; text-decoration:underline}
+
+.content_text{ font-family:Arial, Helvetica, sans-serif;color:#003366; font-size:13px;}
+.content_text a:link{font-family:Arial, Helvetica, sans-serif; color:#003366;font-size:13px; text-decoration:none;}
+.content_text a:hover{ font-family:Arial, Helvetica, sans-serif; color:#003366;font-size:13px; text-decoration:underline;}
+.content_text a:visited{ font-family:Arial, Helvetica, sans-serif; color:#003366;font-size:13px; text-decoration:none;}
+.content_text a:visited:hover{ font-family:Arial, Helvetica, sans-serif; color:#003366; font-size:13px; text-decoration:underline;}
+
+.content_text2{ font-family:Arial, Helvetica, sans-serif;color:#333333; font-size:14px;}
+.content_text2 a:link{font-family:Arial, Helvetica, sans-serif; color:#333333;font-size:14px; text-decoration:none;}
+.content_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; color:#666666;font-size:14px; text-decoration:underline;}
+.content_text2 a:visited{ font-family:Arial, Helvetica, sans-serif; color:#333333;font-size:14px; text-decoration:none;}
+.content_text2 a:visited:hover{ font-family:Arial, Helvetica, sans-serif; color:#666666; font-size:14px; text-decoration:underline;}
+
+.news_text{ font-family:Arial, Helvetica, sans-serif; color:#9900FF; font-size:11px;}
+.news_text a:link{font-family:Arial, Helvetica, sans-serif; color:#0033CC; font-size:11px; text-decoration:none;}
+.news_text a:hover{ font-family:Arial, Helvetica, sans-serif; color:#3399CC; font-size:11px; text-decoration:none;}
+.news_text a:visited{ font-family:Arial, Helvetica, sans-serif; color:#0033CC; font-size:11px; text-decoration:none;}
+.news_text a:visited:hover{ font-family:Arial, Helvetica, sans-serif; color:#3399CC; font-size:11px; text-decoration:none;}
+
+.heading{font-family:Arial, Helvetica, sans-serif;color:#FF0000;font-size:15px;font-weight:bold;text-decoration:none;}
+.heading a:link{font-family:Arial, Helvetica, sans-serif;color:#FF0000;font-size:15px;font-weight:bold;text-decoration:none;}
+.heading a:hover{font-family:Arial, Helvetica, sans-serif;color:#FF0000;font-size:15px;font-weight:bold;text-decoration:underline;}
+.heading a:visited{font-family:Arial, Helvetica, sans-serif;color:#FF0000;font-size:15px;font-weight:bold;text-decoration:none;}
+.heading a:visited:hover{font-family:Arial, Helvetica, sans-serif;color:#FF0000;font-size:15px;font-weight:bold;text-decoration:underline;}
+
+.news{font-family:Arial, Helvetica, sans-serif;color:#95B769;font-size:15px;font-weight:bold;text-decoration:none;}
+.news a:link{font-family:Arial, Helvetica, sans-serif;color:#95B769;font-size:15px;font-weight:bold;text-decoration:none;}
+.news a:hover{font-family:Arial, Helvetica, sans-serif;color:#95B769;font-size:15px;font-weight:bold;text-decoration:underline;}
+.news a:visited{ font-family:Arial, Helvetica, sans-serif;color:#95B769;font-size:15px;font-weight:bold;text-decoration:none;}
+.news a:visited:hover{ font-family:Arial, Helvetica, sans-serif;color:#95B769;font-size:15px;font-weight:bold;text-decoration:underline;}
+
+
+.running_text{font-family:Arial, Helvetica, sans-serif;color:#FFFFFF;font-size:12px;font-weight:bold;text-decoration:none;}
+
+.title3{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333; text-decoration:none}
+.title3 a:link{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333; text-decoration:none}
+.title3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333; text-decoration:underline}
+.title3 a:visited{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333; text-decoration:none}
+.title3 a:visited:hover{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333; text-decoration:underline}
+
+.title1{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#ffffff; text-decoration:none}
+.title1 a:link{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#ffffff; text-decoration:none}
+.title1 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#D09D52; text-decoration:none}
+.title1 a:visited{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#ffffff; text-decoration:none}
+.title1 a:visited:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#D09D52; text-decoration:none}
+
+.title2{ font-family:Arial, Helvetica, sans-serif; color:#333333; font-size:15px; font-weight:bold; text-decoration:none}
+.title2 a:link{ font-family:Arial, Helvetica, sans-serif; color:#333333; font-size:15px; font-weight:bold; text-decoration:none}
+.title2 a:hover{ font-family:Arial, Helvetica, sans-serif; color:#333333; font-size:15px; font-weight:bold; text-decoration:none}
+.title2 a:visited{ font-family:Arial, Helvetica, sans-serif; color:#333333; font-size:15px; font-weight:bold; text-decoration:none}
+.title2 a:visited:hover{ font-family:Arial, Helvetica, sans-serif; color:#333333; font-size:15px; font-weight:bold; text-decoration:none}
+
+.title4{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#990033; text-decoration:none}
+.title4 a:link{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#990033; text-decoration:none}
+.title4 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#990033; text-decoration:none}
+.title4 a:visited{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#990033; text-decoration:none}
+.title4 a:visited:hover{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#990033; text-decoration:none}
+
+.title5{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#000000}
+.title5 a:link{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#000000; text-decoration:none}
+.title5 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#000000; text-decoration:underline}
+.title5 a:visited{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#000000; text-decoration:none}
+.title5 a:visited:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#000000; text-decoration:underline}
+
+.title6{ font-family:Arial, Helvetica, sans-serif; color:#000000; font-size:12px; text-decoration:none}
+.title6 a:link{ font-family:Arial, Helvetica, sans-serif; color:#000000; font-size:12px; text-decoration:none}
+.title6 a:hover{ font-family:Arial, Helvetica, sans-serif; color:#000000; font-size:12px; text-decoration:none}
+.title6 a:visited{ font-family:Arial, Helvetica, sans-serif; color:#000000; font-size:12px; text-decoration:none}
+.title6 a:visited:hover{ font-family:Arial, Helvetica, sans-serif; color:#000000; font-size:12px; text-decoration:none}
+
+.copyright{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#003366; text-decoration:none}
+.copyright a:link{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#003366; text-decoration:none}
+.copyright a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#003366; text-decoration:underline}
+.copyright a:visited{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#003366; text-decoration:none}
+.copyright a:visited:hover{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#003366; text-decoration:underline}
+.news_more {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #00F;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: capitalize;
+}

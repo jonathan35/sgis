@@ -1,0 +1,70 @@
+[03-Nov-2017 14:16:35 Asia/Kuala_Lumpur] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[03-Nov-2017 14:16:35 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: submit in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 11
+[03-Nov-2017 14:16:35 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 93
+[03-Nov-2017 14:16:35 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 95
+[03-Nov-2017 14:16:35 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[03-Nov-2017 14:18:06 Asia/Kuala_Lumpur] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[03-Nov-2017 14:18:06 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: submit in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 11
+[03-Nov-2017 14:18:06 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 93
+[03-Nov-2017 14:18:06 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 95
+[03-Nov-2017 14:18:06 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[23-Nov-2017 14:13:40 Asia/Kuala_Lumpur] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[23-Nov-2017 14:13:40 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: submit in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 11
+[23-Nov-2017 14:13:40 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 93
+[23-Nov-2017 14:13:40 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 95
+[23-Nov-2017 14:13:40 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[07-Feb-2018 11:45:53 Asia/Kuala_Lumpur] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[07-Feb-2018 11:45:53 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: submit in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 11
+[07-Feb-2018 11:45:53 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 93
+[07-Feb-2018 11:45:53 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 95
+[07-Feb-2018 11:45:53 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[10-Feb-2018 16:14:04 Asia/Kuala_Lumpur] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[10-Feb-2018 16:14:04 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: validation in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 5
+[10-Feb-2018 16:14:04 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: submit in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 11
+[10-Feb-2018 16:14:04 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 93
+[10-Feb-2018 16:14:04 Asia/Kuala_Lumpur] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 95
+[10-Feb-2018 16:14:04 Asia/Kuala_Lumpur] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[03-Sep-2018 07:06:09 UTC] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[03-Sep-2018 07:06:09 UTC] PHP Notice:  Undefined index: submit in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 11
+[03-Sep-2018 07:06:09 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 93
+[03-Sep-2018 07:06:09 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 95
+[03-Sep-2018 07:06:09 UTC] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[03-Sep-2018 07:06:31 UTC] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[03-Sep-2018 07:06:31 UTC] PHP Notice:  Undefined index: submit in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 11
+[03-Sep-2018 07:06:31 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 93
+[03-Sep-2018 07:06:31 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 95
+[03-Sep-2018 07:06:31 UTC] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[03-Sep-2018 07:08:34 UTC] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[03-Sep-2018 07:08:34 UTC] PHP Notice:  Undefined index: submit in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 11
+[03-Sep-2018 07:08:34 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 93
+[03-Sep-2018 07:08:34 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 95
+[03-Sep-2018 07:08:34 UTC] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[03-Sep-2018 07:08:53 UTC] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[03-Sep-2018 07:08:53 UTC] PHP Notice:  Undefined index: submit in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 11
+[03-Sep-2018 07:08:53 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 93
+[03-Sep-2018 07:08:53 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 95
+[03-Sep-2018 07:08:53 UTC] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[03-Sep-2018 07:09:27 UTC] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[03-Sep-2018 07:09:27 UTC] PHP Notice:  Undefined index: submit in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 11
+[03-Sep-2018 07:09:27 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 93
+[03-Sep-2018 07:09:27 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 95
+[03-Sep-2018 07:09:27 UTC] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[04-Oct-2019 01:58:34 UTC] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[04-Oct-2019 01:58:34 UTC] PHP Notice:  Undefined index: submit in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 11
+[04-Oct-2019 01:58:34 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 93
+[04-Oct-2019 01:58:34 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 95
+[04-Oct-2019 01:58:34 UTC] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[04-Oct-2019 02:01:11 UTC] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[04-Oct-2019 02:01:11 UTC] PHP Notice:  Undefined index: submit in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 11
+[04-Oct-2019 02:01:11 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 93
+[04-Oct-2019 02:01:11 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 95
+[04-Oct-2019 02:01:11 UTC] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[04-Oct-2019 02:02:13 UTC] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[04-Oct-2019 02:02:13 UTC] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[04-Oct-2019 03:11:52 UTC] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[04-Oct-2019 03:11:52 UTC] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22
+[05-Oct-2019 05:51:48 UTC] PHP Deprecated:  mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ihosting/public_html/tentex/Connections/pamconnection.php on line 9
+[05-Oct-2019 05:51:48 UTC] PHP Notice:  Undefined index: submit in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 11
+[05-Oct-2019 05:51:48 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 93
+[05-Oct-2019 05:51:48 UTC] PHP Notice:  Undefined variable: save in /home/ihosting/public_html/tentex/cms/homepageContent/hpContent.php on line 95
+[05-Oct-2019 05:51:48 UTC] PHP Notice:  Undefined index: m in /home/ihosting/public_html/tentex/cms/menu.php on line 22

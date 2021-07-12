@@ -1,0 +1,72 @@
+#pagefooter {background-color: #efefef; text-align: center; padding-bottom: 15px;padding-top: 15px; font-size: xx-small;font-family: verdana;width: 100%;border-top: 1px solid #ccc;}
+#search{background-color: #e2e2e2; border-bottom: 1px solid #bbbbbb; padding: 8px 15px 8px 15px; text-align: center; background-image: url(http://img.alibaba.com/images/eng/style/search_background.gif); background-repeat: repeat-x; background-position: bottom;}
+#coreproduct h3{color:#fff; text-align: center;}
+#coreproduct h3 a:link{color:#fff; text-decoration:none;}
+#coreproduct h3 a:visited{color:#fff; text-decoration:none;}
+#coreproduct h3 a:hover{color:#fff;}
+#coreproduct #offertitle{padding: 2px; background-color:#015C4f;}
+#coreproduct #offercontent{padding: 6px; border:1px solid #015C4f;}
+#coreproduct #sampletitle{padding: 2px; background-color:#b03958;}
+#coreproduct #samplecontent{width:100%;padding: 6px; border:1px solid #b03958;}
+#coreproduct #companytitle{padding: 2px; background-color:#4241a8;}
+#coreproduct #companycontent{padding: 6px; border:1px solid #4241a8;}
+#navbar{color: #fff; height:28px;}
+#navbar a:link, #navbar a:visited, #navbar a:hover{color:#fff;}
+#navbar .sample{height:28px; padding-top: 6px; background-color: #b03958; background-image: url(http://img.alibaba.com/images/eng/toolbar/product/pr_shadow_red.gif);}
+#navbar .offer{height:28px; padding-top: 6px; background-color: #015c4f; background-image: url(http://img.alibaba.com/images/eng/offer/newoffer/tr_toolbar_15.gif);}
+#navbar .company{height:28px; padding-top: 6px; background-color: #4241a8; background-image: url(http://img.alibaba.com/images/eng/toolbar/company/co_shadow_blue.gif);}
+#navbar .for{height:28px; width:760px; margin:0;padding-top: 6px; background-color: #0976cc; background-image: url(http://img.alibaba.com/images/eng/toolbar/forseller/b_bg.gif);}
+#navbar .myalibaba{ text-align: right; padding-right: 10%; height:28px; width:760px; padding-top: 6px; background-color: #159; background-image: url(http://img.alibaba.com/images/eng/myalibaba/myalibaba_back.gif);}
+#navbar .common {border-bottom: 1px solid #159; margin-bottom: 1px;}
+.menu1{font-size: 12px; margin: 0px; padding: 0px; font-weight: bold;}
+.menu1 img{border: 0; padding: 4px 4px 4px 0px; vertical-align: middle;}
+.menu1 a:link, .menu1 a:visited {display: block;border-bottom: 1px solid #ccc;background-color: #fff;background-image: url("http://img.alibaba.com/images/eng/style/menu_titlebg.gif");padding: 5px 0px 5px 10px;	color: #000;text-decoration: none;background-repeat: repeat-x;}
+.menu1 a:hover{background-image:none; color:#000;}
+.menu1visited{font-size:12px;color: #999; background-color: #fff; display: block; border-bottom: 1px solid #ccc; padding: 5px 0px 5px 10px; background-image: url("none");}
+.menu2{font-size: 12px; background-color: #f7f7f7; margin: 0px; padding: 0px;}
+.menu2 img{border: 0; padding: 4px 4px 4px 0px; vertical-align: middle;}
+.menu2 a:link, .menu2 a:visited {display: block; border-bottom: 1px dotted #ccc;padding: 4px 0px 4px 22px;color: #000;text-decoration: none;}
+.menu2 a:hover{font-weight:bold; color:#000;}
+.menu2visited{font-size:12px;color: #999; background-color: #fff; display: block; border-bottom: 1px dotted #ccc; padding: 4px 0px 4px 22px; background-image: url("none");}
+.formbutton{
+	font-size: 12px;
+	margin-left: 4px;
+	background: url(/images/eng/style/form_button_bg.gif) repeat-x;
+	border: 1px solid;
+	border-color: #7F9DB9 #003C74 #003C74 #7F9DB9;
+	padding: 2px 6px 2px 6px;
+}
+a.formbutton:link,
+a.formbutton:visited {color:#000;text-decoration:none;}
+a.formbutton:hover{color:#000;border-color:#FDD889 #FBCA6A #F8B330 #FBCA6A;}
+.textbutton {border: 1px solid;border-color: #e2e2e2 #afafaf #aeb0af #d6d6d6;}
+.textbutton td{background-color: #fffbd8;border: 1px solid;border-color: #fff #afafaf #afafaf #fff; padding: 0px 20px 0px 5px;}
+.textbutton img{vertical-align: middle;}
+.list{background-color: #efefef;}
+.attention{background:#efefef;}
+.attention img{vertical-align: middle;}
+#formstyle tr{vertical-align:top;}
+#formstyle h1{font-size:small;}
+#formstyle th{background-color:#f5f5f5; ;text-align: right; border-bottom: 1px solid #e0e0e0;}
+#formstyle .front {background-color:#999999; height:5px;}
+#formstyle .back {background-color:#cccccc; height:5px;}
+.remark1{font:normal xx-small Verdana;color:#666;}
+.remark2{font:normal xx-small Verdana;color:#900;}
+.required{font:normal xx-small Verdana;color:red;}
+.error1{font:bold small Verdana;color:red;}
+.error2{font:bold x-small Verdana;color:red;}
+/* OldForm */
+.formtable1{border:1px solid #ccc;}
+td.topline{border-top-width: 1px; border-top-style: solid;}
+td.bottomline{border-bottom-width: 1px; border-bottom-style: solid;}
+.heading1{font:bold small arial; background-color:#999;}
+.heading2{font:bold x-small arial; background-color:#efefef;}
+.heading3{font-size:x-small;}
+.heading3 th{font-weight:bold; background-color:#efefef; text-align: left;}
+.heading4{font:xx-small Verdana;}
+.heading5{font-size:medium; border-bottom-width: 4px; border-bottom-style: solid; border-color:#ccc;}
+.heading6 th{width: 150px; font-weight:bold; background-color:#efefef; text-align: left; vertical-align: top;}
+/*
+	Copyright 2004 Alibaba 
+	Version: 2.1
+*/

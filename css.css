@@ -1,0 +1,227 @@
+/* CSS Document */
+
+.navigation{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:14px;font-weight:bold;color:#333333}
+.navigation a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:14px;font-weight:bold; color:#333333; text-decoration:none}
+.navigation a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:14px;font-weight:bold; color:#f00000; text-decoration:none}
+.navigation a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:14px;font-weight:bold; color:#333333; text-decoration:none}
+.navigation a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:14px;font-weight:bold; color:#f00000; text-decoration:none}
+
+.navigationtop{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#ffffff}
+.navigationtop a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#ffffff; text-decoration:none}
+.navigationtop a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#ffffff; text-decoration:underline}
+.navigationtop a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#ffffff; text-decoration:none}
+.navigationtop a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#ffffff; text-decoration:underline}
+
+.navigationtop2{font-family:"Calibri", Arial, Helvetica, sans-serif;font-size:11px;font-weight:bold;color:#ffffff}
+.navigationtop2 a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#ffffff; text-decoration:none}
+.navigationtop2 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#ffffff; text-decoration:underline}
+.navigationtop2 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#ffffff; text-decoration:none}
+.navigationtop2 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#ffffff; text-decoration:underline}
+
+.content_text{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#5d5c5c; font-size:14px;}
+.content_text a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#5d5c5c;font-size:14px; text-decoration:none;}
+.content_text a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#5d5c5c;font-size:14px; text-decoration:underline;}
+.content_text a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#5d5c5c;font-size:14px; text-decoration:none;}
+.content_text a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#5d5c5c; font-size:14px; text-decoration:underline;}
+
+.content_text2{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#333333; font-size:14px;}
+.content_text2 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#333333;font-size:14px; text-decoration:none;}
+.content_text2 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#666666;font-size:14px; text-decoration:underline;}
+.content_text2 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#333333;font-size:14px; text-decoration:none;}
+.content_text2 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#666666; font-size:14px; text-decoration:underline;}
+
+.content_text3{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ff6600; font-size:12px;}
+.content_text3 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#ff6600;font-size:12px; text-decoration:none;}
+.content_text3 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#ff6600;font-size:12px; text-decoration:underline;}
+.content_text3 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#ff6600;font-size:12px; text-decoration:none;}
+.content_text3 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#ff6600; font-size:12px; text-decoration:underline;}
+
+.content_text4{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#9BB9EF; font-size:16px;}
+.content_text4 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#9BB9EF;font-size:16px; text-decoration:none;}
+.content_text4 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#9BB9EF;font-size:16px; text-decoration:underline;}
+.content_text4 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#9BB9EF;font-size:16px; text-decoration:none;}
+.content_text4 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#9BB9EF; font-size:16px; text-decoration:underline;}
+
+.content_textA5{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#000000; font-size:14px;}
+.content_textA5 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#000000;font-size:14px; text-decoration:none;}
+.content_textA5 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#000000;font-size:14px; text-decoration:underline;}
+.content_textA5 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#000000;font-size:14px; text-decoration:none;}
+.content_textA5 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#000000; font-size:14px; text-decoration:underline;}
+
+.content_text5{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FFFFFF; font-size:11px;}
+.content_text5 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#FFFFFF;font-size:11px; text-decoration:none;}
+.content_text5 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#FFFFFF;font-size:11px; text-decoration:underline;}
+.content_text5 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#FFFFFF;font-size:11px; text-decoration:none;}
+.content_text5 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#FFFFFF; font-size:11px; text-decoration:underline;}
+
+.content_text6{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#043A77; font-size:12px;}
+.content_text6 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#043A77;font-size:12px; text-decoration:none;}
+.content_text6 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#043A77;font-size:12px; text-decoration:none;}
+.content_text6 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#043A77;font-size:12px; text-decoration:none;}
+.content_text6 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#043A77; font-size:12px; text-decoration:none;}
+
+.content_text7{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FF0000; font-size:12px;}
+.content_text7 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#FF0000;font-size:12px; text-decoration:none;}
+.content_text7 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#FF0000;font-size:12px; text-decoration:underline;}
+.content_text7 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#FF0000;font-size:12px; text-decoration:none;}
+.content_text7 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#FF0000; font-size:12px; text-decoration:underline;}
+
+.content_text8{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#333333; font-weight:bold;}
+
+.content_text9{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ffffff; font-size:14px;}
+.content_text9 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#ffffff;font-size:14px; text-decoration:none;}
+.content_text9 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#000000;font-size:14px; text-decoration:none;}
+.content_text9 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#ffffff;font-size:14px; text-decoration:none;}
+.content_text9 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#000000; font-size:14px; text-decoration:none;}
+
+.content_price01{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#9BB9EF; font-size:22px;}
+.content_price01 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#9BB9EF;font-size:22px; text-decoration:none;}
+.content_price01 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#9BB9EF;font-size:22px; text-decoration:underline;}
+.content_price01 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#9BB9EF;font-size:22px; text-decoration:none;}
+.content_price01 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#9BB9EF; font-size:22px; text-decoration:underline;}
+
+.content_price02{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ff6600; font-size:18px;}
+.content_price02 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#ff6600;font-size:18px; text-decoration:none;}
+.content_price02 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#ff6600;font-size:18px; text-decoration:underline;}
+.content_price02 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#ff6600;font-size:18px; text-decoration:none;}
+.content_price02 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#ff6600; font-size:18px; text-decoration:underline;}
+
+.currecy_rm{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#DF0000; font-size:14px;}
+.currecy_rm a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#DF0000;font-size:14px; text-decoration:none;}
+.currecy_rm a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#DF0000;font-size:14px; text-decoration:underline;}
+.currecy_rm a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#DF0000;font-size:14px; text-decoration:none;}
+.currecy_rm a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#DF0000; font-size:14px; text-decoration:underline;}
+
+.paging{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FF0000; font-size:14px;}
+.paging a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#FF0000;font-size:14px; text-decoration:none;}
+.paging a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#FF0000;font-size:14px; text-decoration:underline;}
+.paging a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#FF0000;font-size:14px; text-decoration:none;}
+.paging a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#FF0000; font-size:14px; text-decoration:underline;}
+
+.news_text{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#0033CC; font-size:10px;}
+.news_text a:link{font-family:"Calibri", Arial, Helvetica, sans-serif; color:#0033CC; font-size:10px; text-decoration:none;}
+.news_text a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#3399CC; font-size:10px; text-decoration:none;}
+.news_text a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#0033CC; font-size:10px; text-decoration:none;}
+.news_text a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#3399CC; font-size:10px; text-decoration:none;}
+
+.heading{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#E64E5A;font-size:15px;font-weight:bold;text-decoration:none;}
+.heading a:link{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#E64E5A;font-size:15px;font-weight:bold;text-decoration:none;}
+.heading a:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#E64E5A;font-size:15px;font-weight:bold;text-decoration:underline;}
+.heading a:visited{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#E64E5A;font-size:15px;font-weight:bold;text-decoration:none;}
+.heading a:visited:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#E64E5A;font-size:15px;font-weight:bold;text-decoration:underline;}
+
+.heading2{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FF0000;font-size:12px;font-weight:bold;text-decoration:none;}
+.heading2 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FF0000;font-size:12px;font-weight:bold;text-decoration:none;}
+.heading2 a:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FF0000;font-size:12px;font-weight:bold;text-decoration:underline;}
+.heading2 a:visited{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FF0000;font-size:12px;font-weight:bold;text-decoration:none;}
+.heading2 a:visited:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FF0000;font-size:12px;font-weight:bold;text-decoration:underline;}
+
+.heading3{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ffffff;font-size:22px;font-weight:bold;text-decoration:none; text-shadow: -0px 1px 2px #333;}
+.heading3 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ffffff;font-size:22px;font-weight:bold;text-decoration:none;}
+.heading3 a:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ffffff;font-size:22px;font-weight:bold;text-decoration:none;}
+.heading3 a:visited{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ffffff;font-size:22px;font-weight:bold;text-decoration:none;}
+.heading3 a:visited:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ffffff;font-size:22px;font-weight:bold;text-decoration:none;}
+
+.heading4{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#333333;font-size:22px;font-weight:bold;text-decoration:none;}
+.heading4 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#333333;font-size:22px;font-weight:bold;text-decoration:none;}
+.heading4 a:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#333333;font-size:22px;font-weight:bold;text-decoration:none;}
+.heading4 a:visited{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#333333;font-size:22px;font-weight:bold;text-decoration:none;}
+.heading4 a:visited:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#333333;font-size:22px;font-weight:bold;text-decoration:none;}
+
+.heading5{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FFC81B;font-size:13px;font-weight:bold;text-decoration:none;}
+.heading5 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FFC81B;font-size:13px;font-weight:bold;text-decoration:none;}
+.heading5 a:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FFC81B;font-size:13px;font-weight:bold;text-decoration:none;}
+.heading5 a:visited{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FFC81B;font-size:13px;font-weight:bold;text-decoration:none;}
+.heading5 a:visited:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FFC81B;font-size:13px;font-weight:bold;text-decoration:none;}
+
+.heading6{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#5d5c5c;font-size:15px;font-weight:bold;text-decoration:none;}
+.heading6 a:link{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#5d5c5c;font-size:15px;font-weight:bold;text-decoration:none;}
+.heading6 a:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#5d5c5c;font-size:15px;font-weight:bold;text-decoration:none;}
+.heading6 a:visited{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#5d5c5c;font-size:15px;font-weight:bold;text-decoration:none;}
+.heading6 a:visited:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#5d5c5c;font-size:15px;font-weight:bold;text-decoration:none;}
+
+.book{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FF0000;font-size:15px;font-weight:bold;text-decoration:none;}
+.book a:link{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FF0000;font-size:15px;font-weight:bold;text-decoration:none;}
+.book a:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FF0000;font-size:15px;font-weight:bold;text-decoration:underline;}
+.book a:visited{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FF0000;font-size:15px;font-weight:bold;text-decoration:none;}
+.book a:visited:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FF0000;font-size:15px;font-weight:bold;text-decoration:underline;}
+
+.news{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#1B9E50;font-size:15px;font-weight:bold;text-decoration:none;}
+.news a:link{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#1B9E50;font-size:15px;font-weight:bold;text-decoration:none;}
+.news a:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#1B9E50;font-size:15px;font-weight:bold;text-decoration:underline;}
+.news a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#1B9E50;font-size:15px;font-weight:bold;text-decoration:none;}
+.news a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif;color:#1B9E50;font-size:15px;font-weight:bold;text-decoration:underline;}
+
+.running_text{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#666666;font-size:14px;text-decoration:none;}
+.running_text a:link{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#666666;font-size:14px;text-decoration:none;}
+.running_text a:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#666666;font-size:14px;text-decoration:underline;}
+.running_text a:visited{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#666666;font-size:14px;text-decoration:none;}
+.running_text a:visited:hover{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#666666;font-size:14px;text-decoration:underline;}
+
+.title{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; color:#ffffff; text-decoration:none}
+.title a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; color:#ffffff; text-decoration:none}
+.title a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; color:#ffffff; text-decoration:none}
+.title a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; color:#ffffff; text-decoration:none}
+.title a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; color:#ffffff; text-decoration:none}
+
+.title3{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; color:#333333; text-decoration:none}
+.title3 a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; color:#333333; text-decoration:none}
+.title3 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; color:#333333; text-decoration:underline}
+.title3 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; color:#333333; text-decoration:none}
+.title3 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; color:#333333; text-decoration:underline}
+
+.title1{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; color:#ffffff; text-decoration:none}
+.title1 a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; color:#ffffff; text-decoration:none}
+.title1 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; color:#ffffff; text-decoration:underline}
+.title1 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; color:#ffffff; text-decoration:none}
+.title1 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; color:#ffffff; text-decoration:underline}
+
+.title2{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#880308; font-size:12px; text-decoration:none}
+.title2 a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#880308; font-size:12px; text-decoration:none}
+.title2 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#880308; font-size:12px; text-decoration:underline}
+.title2 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#880308; font-size:12px; text-decoration:none}
+.title2 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#880308; font-size:12px; text-decoration:underline}
+
+.title4{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#FC0; text-decoration:none}
+.title4 a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#FC0; text-decoration:none}
+.title4 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#FC0; text-decoration:none}
+.title4 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#FC0; text-decoration:none}
+.title4 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#FC0; text-decoration:none}
+
+.title5{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#000000}
+.title5 a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#000000; text-decoration:none}
+.title5 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#000000; text-decoration:underline}
+.title5 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#000000; text-decoration:none}
+.title5 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#000000; text-decoration:underline}
+
+.title6{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#000000; font-size:12px; text-decoration:none}
+.title6 a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#000000; font-size:12px; text-decoration:none}
+.title6 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#000000; font-size:12px; text-decoration:underline}
+.title6 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#000000; font-size:12px; text-decoration:none}
+.title6 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; color:#000000; font-size:12px; text-decoration:underline}
+
+.title7{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#000000}
+.title7 a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#000000; text-decoration:none}
+.title7 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#000000; text-decoration:underline}
+.title7 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#000000; text-decoration:none}
+.title7 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#000000; text-decoration:underline}
+
+.title8{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#000000}
+.title8 a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#000000; text-decoration:none}
+.title8 a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#000000; text-decoration:underline}
+.title8 a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#000000; text-decoration:none}
+.title8 a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#000000; text-decoration:underline}
+
+.copyright{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; color:#ffffff; text-decoration:none}
+.copyright a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; color:#ffffff; text-decoration:none}
+.copyright a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; color:#cccccc; text-decoration:underline}
+.copyright a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; color:#ffffff; text-decoration:none}
+.copyright a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:12px; color:#cccccc; text-decoration:underline}
+
+.nav_small{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; color:#ffffff; text-decoration:none}
+.nav_small a:link{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; color:#ffffff; text-decoration:none}
+.nav_small a:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; color:#ffffff; text-decoration:underline}
+.nav_small a:visited{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; color:#ffffff; text-decoration:none}
+.nav_small a:visited:hover{ font-family:"Calibri", Arial, Helvetica, sans-serif; font-size:11px; color:#ffffff; text-decoration:underline}
+
+.transparent_bg{ background-color:}

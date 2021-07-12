@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+        .bubbleInfo {
+            position: relative;
+			width: 150px;
+            /*top: 50px;
+            left: 100px;
+            width: 500px;*/
+        }
+		.bubbleInfo2 {
+            position: relative;
+			width: 150px;
+			/*top: 250px;
+            left: 100px;
+            width: 500px;*/
+        }
+		
+		.bubbleInfo3 {
+            position: relative;
+			width: 150px;
+            /*top: 250px;
+            left: 100px;
+            width: 500px;*/
+        }
+		.bubbleInfo4 {
+            position: relative;
+			width: 150px;
+            /*top: 250px;
+            left: 100px;
+            */
+        }
+		
+		.trigger {
+            position:absolute;
+			left: 2px;
+			
+        }
+
+		
+
+        /* Bubble pop-up */
+ 
+        .popup {
+        	position: absolute;
+			width:200px;
+			display: none;
+        	z-index: 50;
+        	border-collapse: collapse;
+        }
+ 
+        .popup td.corner {
+        	height: 15px;
+        	width: 19px;
+        }
+ 
+        .popup td#topleft { background-image: url(bubble-1.gif); }
+        .popup td.top { background-image: url(bubble-2.gif); }
+        .popup td#topright { background-image: url(bubble-3.gif); }
+        .popup td.left { background-image: url(bubble-4.gif); }
+        .popup td.right { background-image: url(bubble-5.gif); }
+        .popup td#bottomleft { background-image: url(bubble-6.gif); }
+        .popup td.bottom { background-image: url(bubble-7.gif); text-align: center;}
+        .popup td.bottom img { display: block; margin: 0 auto; }
+        .popup td#bottomright { background-image: url(bubble-8.gif); }
+ 
+        .popup table.popup-contents {
+        	font-size: 12px;
+        	line-height: 1.2em;
+        	background-color: #fff;
+        	color: #666;
+        	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+        	}
+ 
+        table.popup-contents th {
+        	text-align: right;
+        	text-transform: lowercase;
+        	}
+ 
+        table.popup-contents td {
+        	text-align: left;
+        	}
+ 
+        tr#release-notes th {
+        	text-align: left;
+        	text-indent: -9999px;
+        	background: url(starburst.gif) no-repeat top right;
+        	height: 17px;
+        	}
+ 
+        tr#release-notes td a {
+        	color: #333;
+        }
+        
