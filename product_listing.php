@@ -71,7 +71,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 <table width="96%" border="0" cellpadding="0" cellspacing="10">
  <tr>
     <td align="left"><div align="left"><span class="heading4"><br />
-    Tentex <sup class="navigation">TM</sup> Decorative Concrete Solutions</span><br />
+    Products</span><br />
     </div></td>
  </tr> 
   

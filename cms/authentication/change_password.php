@@ -93,7 +93,7 @@ function MM_swapImage() { //v3.0
               <table border="0" cellpadding="0" cellspacing="0" width="100%" id="form">
                 <tr>
                   <th class="font12"><div align="left"><span class="content style7 style12">*</span> <span class="content">Current Password</span></div></th>
-                  <td><INPUT TYPE="password" NAME="OldPassword" VALUE="" SIZE=20 MAXLENGTH=20>
+                  <td><INPUT TYPE="password" NAME="OldPassword" VALUE="" SIZE=20 MAXLENGTH=20 autocomplete="off">
                       <input type=hidden name=s value=a></td>
                 </tr>
                 <tr>

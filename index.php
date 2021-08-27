@@ -79,14 +79,6 @@ function MM_preloadImages() { //v3.0
 //-->
 </script>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-43407528-1', 'tentex.com.my');
-  ga('send', 'pageview');
-</script>
 
 </head>
 <body onLoad="MM_preloadImages('images/more_b.gif','images/nav_001b.gif','images/nav_002b.gif','images/btn_eng02.gif','images/btn_bm02.gif')">
@@ -99,9 +91,84 @@ function MM_preloadImages() { //v3.0
       <tr>
         <td height="295" align="center" valign="top" background="images/bg_banner.jpg"><div align="center"><?php include("banner02.php");?>
         </div></td>
-        </tr>
+      </tr>
+      
+     
+
+
       <tr>
-        <td height="355" align="center" valign="top" background="images/home.jpg"><div align="center"><img src="images/space.gif" width="20" height="75"><br>
+        <td height="355" style="vertical-align:top; background:#EDEDED;">
+          <div style="height: 40px; width:100%; background-image:url('images/home_top_shadow.jpg')"></div>
+          
+          <div style="padding:0 5px 0 5px; background:white; border-left:5px solid #EDEDED; border-right:5px solid #EDEDED; ">
+                  <div style="background:#EDEDED; padding:0 7px 30px 7px; display: flex; align-items: center;
+  justify-content: center;">
+                    <div class="home-block home-block-1">
+                      <div class="block-body">
+                        <div class="home-block-title">About Us</div>
+                        
+                        <?php 
+                        $home_query = mysqli_query($conn, "SELECT * FROM home_content WHERE id='1' and status='1'");
+                        $home = mysqli_fetch_assoc($home_query);
+                        $find = array("../../","<p>","</p>");
+                        echo str_replace($find," ", $home['content']);?>
+                      </div>
+                      <a href="result.php?root=MTc4" class="block-href"><div class="home-block-more">More Details</div></a>
+                    </div>
+                    <div class="home-block home-block-2">
+                      <div class="block-body">
+                        <div class="home-block-title">Products</div>
+                        <?php include("home_products.php");?>
+                      </div>
+                      <a href="result.php?root=MTc2" class="block-href"><div class="home-block-more">More Details</div></a>
+                    </div>
+                    <div class="home-block home-block-3">
+                      <div class="block-body">
+                        <div class="home-block-title">Contact Us</div>
+                        <table>
+                        <tbody>
+                        <tr><td style="font-size: small; padding:4px;">
+                        SGIS Certification (M) Sdn. Bhd.
+                        </td></tr>
+                        <tr><td style="font-size: small; padding:4px;">
+                        Tel: 082 579724<br>
+                        </td></tr>
+                        <tr><td style="font-size: small; padding:4px;">
+                        Fax: 082 570136<br>
+                        <tr><td style="font-size: small; padding:4px;">
+                        Email: grandaa.sgiscert@gmail.com<br>
+                        </td></tr>
+                        </tbody>
+                        </table>
+                        <?php //include("home_news.php");?>
+                      </div>
+                      <a href="result.php?root=MTYx" class="block-href"><div class="home-block-more">More Details</div></a>
+                    </div>
+                    
+                  </div>
+          </div>
+          
+
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center" valign="top">
+        <div align="center" style="font-family:arial; padding:40px 90px 90px 90px;">
+          <img src="images/logo2.jpg">
+          <div style="font-size:50px; color:#40B3A2; font-weight:bold; padding:0 0 20px 0;">Scope of consultancy </div>
+          <div>
+            To assist planter and oil miller in the process of implementing its Malaysian Sustainable Palm Oil (MSPO) to comply with the MS 2530-3:2013 version through the provision of training and guidance.
+          </div>
+        </div>
+        </td>
+      </tr>
+      <?php /*
+      <tr>
+        <td height="355" align="center" valign="top" background="images/home.jpg">
+        <div align="center"><img src="images/space.gif" width="20" height="75">
+        
+        <br>
           <table width="970" border="0" cellspacing="20" cellpadding="12">
             <tr>
               <td width="33%" align="left" valign="top" class="content_text9"><div align="left">
@@ -111,7 +178,7 @@ function MM_preloadImages() { //v3.0
 					$find = array("../../","<p>","</p>");
 					echo str_replace($find," ", $home['content']);?>
               </div></td>
-              <td width="33%" align="left" valign="top" class="content_text9"><div align="left">
+              <td width="33%" al1gn="left" valign="top" class="content_text9"><div align="left">
                 <?php include("home_products.php");?>
               </div></td>
               <td width="33%" align="left" valign="top" class="content_textA5"><div align="left">
@@ -119,6 +186,8 @@ function MM_preloadImages() { //v3.0
               </div></td>
             </tr>
           </table>
+
+
           <table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
               <td align="left"><div align="left"><a href="result.php?root=MTc4"><img src="images/space.gif" width="160" height="50" border="0"></a></div></td>
@@ -126,8 +195,11 @@ function MM_preloadImages() { //v3.0
               <td align="left"><div align="left"><a href="result.php?root=MjIy"><img src="images/space.gif" width="160" height="50" border="0"></a></div></td>
             </tr>
           </table>
+
+
           </div></td>
       </tr>
+      */?>
       <tr>
         <td align="left" valign="top"><?php include("btm.php");?>          <br></td>
       </tr>
@@ -136,3 +208,49 @@ function MM_preloadImages() { //v3.0
 </table>
 </body>
 </html>
+
+<style>
+.home-block {
+  display:inline-block; margin:0 5px; height:305px; width:305px;  border-radius:10px;
+  font-family: Arial; color:white;
+}
+.home-block-1 {
+  background:#41b3a3;
+}
+.home-block-2 {
+  background:#E27D5F;
+}
+.home-block-3 {
+  background:#C38D9D;
+}
+.home-block-title {
+  font-size:32px;
+  font-weight:bold;
+  padding-bottom:5px;
+  text-shadow: 2px 3px 2px rgba(0,0,0,.5);
+}
+.block-body{
+  padding:20px;
+  height:200px;
+  overflow:hidden; 
+  vertical-align:top;
+}
+.home-block-more {
+  background: #000;
+  width:100px;
+  color:white;
+  text-align:center;
+  border-radius:10px;
+  padding:12px;
+  margin:10px;
+  transition: background .5s;
+}
+.block-href {
+  text-decoration:none;
+  position: relative;
+  left:12px;
+}
+.block-href:hover {
+  background: #666;
+}
+</style>

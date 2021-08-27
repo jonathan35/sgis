@@ -1,4 +1,4 @@
-<?php 
+<? 
 
 require_once('../Connections/pamconnection.php'); 
 
@@ -43,7 +43,7 @@ session_start();
 					break;
 
 			
-mysqli_query($conn, 
+
 				case 'jpg':
 
 					$file = 'photo/'.uniqid('').'.jpeg';
@@ -55,7 +55,7 @@ mysqli_query($conn,
 				case 'jpeg': 
 
 					$file = 'photo/'.uniqid('').'.jpeg';
-mysqli_query($conn, 
+
 					break; 
 
 				 
@@ -67,12 +67,12 @@ mysqli_query($conn,
 					break;
 
 				 
-mysqli_query($conn, 
+
 				case 'png':
 
 					$file = 'photo/'.uniqid('').'.png';
 
-					bremysqli_query($conn, 
+					break;					
 
 			}
 
@@ -84,7 +84,7 @@ mysqli_query($conn,
 
 				if ( move_uploaded_file($file_source, $file ) ) 
 
-				{mysqli_query($conn, 
+				{
 
 				$file="../".$file;
 
@@ -98,7 +98,7 @@ mysqli_query($conn,
 
 			}
 
-		}	mysqli_query($conn, 
+		}	
 
 	}
 
@@ -107,12 +107,12 @@ mysqli_query($conn,
 		//*************************************************Manage Country*************************************************
 
 	$today=date("Y-m-d");
-mysqli_query($conn, 
+
 	
 
 	$temp_query_Recordset1 = "SELECT * FROM tiny_photo_gallery WHERE status=1";					 
 
-	$temp_Recordsetexist = mysqli_query($conn, $temp_query_Recordset1) or die(mysqli_error());
+	$temp_Recordsetexist = mysqli_query($conn, $temp_query_Recordset1, $pamconnection) or die(mysqli_error());
 
 	$row_Rs1 = mysqli_fetch_assoc($temp_Recordsetexist);
 
@@ -133,20 +133,20 @@ mysqli_query($conn,
 			status='0' WHERE id='$this_host_product_id'"; 
 
 			
-mysqli_query($conn, 
+
 			mysqli_select_db($conn, $database_pamconnection);
 
-			$Result1 = mysqli_query($conn, $insertSQL1) or die(mysqli_error());
+			$Result1 = mysqli_query($conn, $insertSQL1, $pamconnection) or die(mysqli_error());
 
 		}
-mysqli_query($conn, 
+
 	} while($row_Rs1 = mysqli_fetch_assoc($temp_Recordsetexist));
 
 	
 
 	$temp_query_Recordset2 = "SELECT * FROM tiny_photo_gallery WHERE status=0";					 
 
-	$Rs1 = mysqli_query($conn, $temp_query_Recordset2) or die(mysqli_error());
+	$Rs1 = mysqli_query($conn, $temp_query_Recordset2, $pamconnection) or die(mysqli_error());
 
 	$row_Rs1 = mysqli_fetch_assoc($Rs1);
 
@@ -160,9 +160,9 @@ mysqli_query($conn,
 
 		{	
 
-			$this_mysqli_query($conn, _id=$row_Rs1['id']; 
+			$this_host_product_id=$row_Rs1['id']; 
 
-			$insemysqli_query($conn, DATE tiny_photo_gallery SET 
+			$insertSQL1 = "UPDATE tiny_photo_gallery SET 
 
 			status='1' WHERE id='$this_host_product_id'"; 
 
@@ -170,7 +170,7 @@ mysqli_query($conn,
 
 			mysqli_select_db($conn, $database_pamconnection);
 
-			$Result1 = mysqli_query($conn, $insertSQL1) or die(mysqli_error());
+			$Result1 = mysqli_query($conn, $insertSQL1, $pamconnection) or die(mysqli_error());
 
 		}
 
@@ -216,7 +216,7 @@ if($_POST['delete']=="Delete")
 
 			mysqli_select_db($conn, $database_pamconnection);
 
-			$dataResult1 = mysqli_query($conn, $del_data) or die(mysqli_error());			
+			$dataResult1 = mysqli_query($conn, $del_data, $pamconnection) or die(mysqli_error());			
 
 		}
 
@@ -250,7 +250,7 @@ else if($_GET['tab']=="approvednotondisplay")
 
 	$pageNum_Rs1 = 0;
 
-	if(!empty($_GET['pageNum_Rs1'])) {
+	if (isset($_GET['pageNum_Rs1'])) {
 
 	  $pageNum_Rs1 = $_GET['pageNum_Rs1'];
 
@@ -268,13 +268,13 @@ else if($_GET['tab']=="approvednotondisplay")
 
 	$query_limit_Rs1 = sprintf("%s LIMIT %d, %d", $query, $startRow_Rs1, $maxRows_Rs1);
 
-	$Rs1 = mysqli_query($conn, $query_limit_Rs1) or die(mysqli_error());
+	$Rs1 = mysqli_query($conn, $query_limit_Rs1, $pamconnection) or die(mysqli_error());
 
 	$row_Rs1 = mysqli_fetch_assoc($Rs1);
 
 	
 
-	if(!empty($_GET['totalRows_Rs1'])) {
+	if (isset($_GET['totalRows_Rs1'])) {
 
 	  $totalRows_Rs1 = $_GET['totalRows_Rs1'];
 
@@ -544,7 +544,7 @@ function chkAll(frm, arr, mark)
 
                             <td colspan="2" align="left" class="main_title">
 
-                              <?php if($save=='true')
+                              <? if($save=='true')
 
 echo '<font color="#336600">Image is successfully uploaded</font>';
 
@@ -620,7 +620,7 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
 
 
-                                <?php 
+                                <? 
 
 			if($_GET['tab']=="approvedondisplay"||$_GET['tab']=="") { ?>
 
@@ -676,21 +676,21 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
                                       <li class="current"><a href="tinyPhotoGallery.php?tab=approvedondisplay" title="Display Product Item Online" class="content">On Display (
 
-                                            <?php if ($total_testimonial_on_display!=0){ echo $total_testimonial_on_display;}else{?>
+                                            <? if ($total_testimonial_on_display!=0){ echo $total_testimonial_on_display;}else{?>
 
                                         0
 
-                                        <?php }?>
+                                        <? }?>
 
                                         )</a></li>
 
                                       <li class=""><a href="tinyPhotoGallery.php?tab=approvednotondisplay" title="Not Display Product Item Online" class="content">Not On Display (
 
-                                            <?php if ($total_testimonial_not_on_display!=0){echo $total_testimonial_not_on_display;}else{?>
+                                            <? if ($total_testimonial_not_on_display!=0){echo $total_testimonial_not_on_display;}else{?>
 
                                         0
 
-                                        <?php }?>
+                                        <? }?>
 
                                         )</a></li>
 
@@ -734,7 +734,7 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
                                     </tr>
 
-                                    <?php  $count=1;
+                                    <?  $count=1;
 
 					if($row_Rs1!='')
 
@@ -758,11 +758,11 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
 				?>
 
-                                    <tr bgcolor="<?php echo $bgcolor;?>">
+                                    <tr bgcolor="<? echo $bgcolor;?>">
 
                                       <th width="5%" class="content">
 
-                                        <input type="checkbox" value="<?php echo $row_Rs1['id']; ?>" name="productIdList[]">
+                                        <input type="checkbox" value="<? echo $row_Rs1['id']; ?>" name="productIdList[]">
 
                                         <br />                                      </th>
 
@@ -770,7 +770,7 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
                                       <td width="15%" class="content" align="center">
 
-                                      <input type="submit" name="<?php echo $row_Rs1['id']; ?>" value="Not Display" title="Not Display This Product At Your Online List"/>                                      </td>
+                                      <input type="submit" name="<? echo $row_Rs1['id']; ?>" value="Not Display" title="Not Display This Product At Your Online List"/>                                      </td>
 
 
 
@@ -796,15 +796,15 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
 									  ?>                                      
 
-                                      <img src="<?php echo str_replace("../../","../",$row_Rs1['photo1']);?>" <?php echo $measure.$row_Rs1['id']?> ></td>
+                                      <img src="<? echo str_replace("../../","../",$row_Rs1['photo1']);?>" <? echo $measure.$row_Rs1['id']?> ></td>
 
                                         <td align="left" class="red">
 
-                                        <input type="text" name="textarea" style="width:200px;" value="<?php echo $row_Rs1['photo1'];?>"></td>  
+                                        <input type="text" name="textarea" style="width:200px;" value="<? echo $row_Rs1['photo1'];?>"></td>  
 
                                    </tr>
 
-                                    <?php  $count++;
+                                    <?  $count++;
 
 						 }} while($row_Rs1 = mysqli_fetch_assoc($Rs1));
 
@@ -834,7 +834,7 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
 					{ ?>
 
-                                    <?php } ?>
+                                    <? } ?>
 
                                     <!--Empty Detection End-->
 
@@ -852,7 +852,7 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
                                 <!--On Display End-->
 
-                                <?php } else if($_GET['tab']=="approvednotondisplay") { ?>
+                                <? } else if($_GET['tab']=="approvednotondisplay") { ?>
 
                                 <!--Not On Display-->
 
@@ -912,21 +912,21 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
                                       <li class=""><a href="tinyPhotoGallery.php?tab=approvedondisplay" title="Display Product Item Online" class="content">On Display(
 
-                                            <?php if ($total_testimonial_on_display!=0){ echo $total_testimonial_on_display;}else{?>
+                                            <? if ($total_testimonial_on_display!=0){ echo $total_testimonial_on_display;}else{?>
 
                                         0
 
-                                        <?php }?>
+                                        <? }?>
 
                                         )</a></li>
 
                                       <li class="current"><a href="tinyPhotoGallery.php?tab=approvednotondisplay" title="Not Display Product Item Online" class="content">Not On Display (
 
-                                            <?php if ($total_testimonial_not_on_display!=0){echo $total_testimonial_not_on_display;}else{?>
+                                            <? if ($total_testimonial_not_on_display!=0){echo $total_testimonial_not_on_display;}else{?>
 
                                         0
 
-                                        <?php }?>
+                                        <? }?>
 
                                         )</a></li>
 
@@ -964,7 +964,7 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
                                     </tr>
 
-                                    <?php  $count=1;
+                                    <?  $count=1;
 
 					if($row_Rs1!='')
 
@@ -988,11 +988,11 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
 				?>
 
-                                    <tr bgcolor="<?php echo $bgcolor;?>">
+                                    <tr bgcolor="<? echo $bgcolor;?>">
 
                                       <th width="5%" class="content">
 
-                                        <input type="checkbox" value="<?php echo $row_Rs1['id']; ?>" name="productIdList[]">
+                                        <input type="checkbox" value="<? echo $row_Rs1['id']; ?>" name="productIdList[]">
 
                                         <br />                                      </th>
 
@@ -1000,7 +1000,7 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
                                       <td width="11%" class="content" align="center">
 
-                                      <input type="submit" name="<?php echo $row_Rs1['id']; ?>" value="Display" title="Display This Product At Your Online List"/>                        </td>
+                                      <input type="submit" name="<? echo $row_Rs1['id']; ?>" value="Display" title="Display This Product At Your Online List"/>                        </td>
 
 
 
@@ -1024,15 +1024,15 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
 									  ?>                                      
 
-                                      <img src="<?php echo str_replace("../../","../",$row_Rs1['photo1']);?>" <?php echo $measure.$row_Rs1['id']?>></td>
+                                      <img src="<? echo str_replace("../../","../",$row_Rs1['photo1']);?>" <? echo $measure.$row_Rs1['id']?>></td>
 
                                      <td align="left" class="red">
 
-                                        <input type="text" name="textarea" style="width:200px;" value="<?php echo $row_Rs1['photo1'];?>"></td> 
+                                        <input type="text" name="textarea" style="width:200px;" value="<? echo $row_Rs1['photo1'];?>"></td> 
 
                                     </tr>
 
-                                    <?php  $count++;
+                                    <?  $count++;
 
 													 } while($row_Rs1 = mysqli_fetch_assoc($Rs1));
 
@@ -1062,7 +1062,7 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
 											{ ?>
 
-                                    <?php } ?>
+                                    <? } ?>
 
                                     <!--Empty Detection End-->
 
@@ -1078,7 +1078,7 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
                                 <!--Not On Display End-->
 
-                                <?php } ?>
+                                <? } ?>
 
                                 <!--End-->
 
@@ -1090,13 +1090,13 @@ echo '<font color="#CC3300">Failed to upload Image</font>';
 
                             <td colspan="4"><div align="left" class="content">
 
-                                <?php if ($totalRows_Rs1 > 0 ) { ?>
+                                <? if ($totalRows_Rs1 > 0 ) { ?>
 
-&nbsp;Total Records <?php echo ($startRow_Rs1 + 1) ?> to <?php echo min($startRow_Rs1 + $maxRows_Rs1, $totalRows_Rs1) ?> of <?php echo $totalRows_Rs1 ?> <br>
+&nbsp;Total Records <? echo ($startRow_Rs1 + 1) ?> to <? echo min($startRow_Rs1 + $maxRows_Rs1, $totalRows_Rs1) ?> of <? echo $totalRows_Rs1 ?> <br>
 
-&nbsp;<a href="<?php printf("%s?pageNum_Rs1=%d%s", $currentPage, 0, $queryString_Rs1); ?>">First</a> <a href="<?php printf("%s?pageNum_Rs1=%d%s", $currentPage, max(0, $pageNum_Rs1 - 1), $queryString_Rs1); ?>">| Previous</a> | <a href="<?php printf("%s?pageNum_Rs1=%d%s", $currentPage, min($totalPages_Rs1, $pageNum_Rs1 + 1), $queryString_Rs1); ?>">Next</a> <a href="<?php printf("%s?pageNum_Rs1=%d%s", $currentPage, $totalPages_Rs1, $queryString_Rs1); ?>">| Last</a> |
+&nbsp;<a href="<? printf("%s?pageNum_Rs1=%d%s", $currentPage, 0, $queryString_Rs1); ?>">First</a> <a href="<? printf("%s?pageNum_Rs1=%d%s", $currentPage, max(0, $pageNum_Rs1 - 1), $queryString_Rs1); ?>">| Previous</a> | <a href="<? printf("%s?pageNum_Rs1=%d%s", $currentPage, min($totalPages_Rs1, $pageNum_Rs1 + 1), $queryString_Rs1); ?>">Next</a> <a href="<? printf("%s?pageNum_Rs1=%d%s", $currentPage, $totalPages_Rs1, $queryString_Rs1); ?>">| Last</a> |
 
-                                <?php } ?>
+                                <? } ?>
 
                             </div></td>
 

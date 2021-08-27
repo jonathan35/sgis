@@ -361,7 +361,7 @@ if($_GET['tab']=="approvedondisplay"||$_GET['tab']==""){
 function toggleChecked(status) {
 
 	$(".checkbox").each( function() {
-		alert(status);
+		
 		$(this).attr("checked",status);
 
 	})

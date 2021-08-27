@@ -100,11 +100,9 @@ All this value will send to result.php to be filter and retreive the correct pag
 		}
 
 
-
-
 ?>
   
-  <a href="index.php" class="MenuBarItemSubmenu" style="top:0;"><div style="float:left; float:left;"><img src="<?=$left_bg?>" width="9" height="30" border="0"></div><div style="float:left; width:auto; height:24px; font-size:14px; font-weight:bold; background:url(<?=$middle_bg?>); padding:6px 18px 0 18px;">Home</div><div style="float:left; width:9px;"><img src="<?=$right_bg?>" width="9" height="30" border="0"></div>
+  <a href="index.php" class="MenuBarItemSubmenu" style="top:0;"><div style="float:left; float:left;"><img src="<?=$left_bg?>" width="9" height="30" border="0"></div><div style="float:left; width:auto; height:24px; font-size:16px; font-weight:bold; background:url(<?=$middle_bg?>); padding:3px 20px;">HOME</div><div style="float:left; width:9px;"><img src="<?=$right_bg?>" width="9" height="30" border="0"></div>
   </a>
 </li>                    
 
@@ -154,8 +152,8 @@ else
 	  ?>
   
   <a href="result.php?root=<?php echo base64_encode($hrzt_category_set['maincat_id'])?>" <?php if($hrzt_category_set02!=''){?><?php }?>class="MenuBarItemSubmenu" style="font-size:<?php echo $hrzt_text_size_menu_set['record']?>px; padding:0 0 0 0 !important; top:0; " <?php if($hover_color == true){?>class="hover_color_white"<?php }?>><?php }else{?><a href="result.php?root=<?php echo base64_encode($hrzt_category_set['maincat_id'])?>" <?php if($hrzt_category_set02!=''){?>class="MenuBarItemSubmenu"<?php }?> style=" font-size:<?php echo $hrzt_text_size_menu_set['record']?>px; top:0;" <?php if($hover_color == true){?>class="hover_color_white"<?php }?>><?php }?>
-  <div style="float:left; width:10px; height:30px; float:left;background:url(<?= $left_bg?>);">&nbsp;</div>
-  <div style="float:left; width:auto; height:24px; font-size:14px; font-weight:bold; background:url(<?=$middle_bg?>); padding:6px 21px 0 20px;"><?php 
+  <div style="float:left; width:10px; height:24px; float:left;background:url(<?= $left_bg?>);">&nbsp;</div>
+  <div style="float:left; width:auto; height:24px; font-size:16px; font-weight:bold; background:url(<?=$middle_bg?>); padding:3px 20px;"><?php 
    
 	  $hrzt_content01 = $hrzt_category_set['maincat_name']." ";
 					echo substr( $hrzt_content01, 0,strrpos( substr( $hrzt_content01, 0, $hrzt_character_limit_set['record']), ' ' ));

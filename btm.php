@@ -39,7 +39,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
                       
                     <table width="100%" border="0" align="center" cellpadding="0" cellspacing="6">
                       <tr>
-                        <td width="49%" align="left" class="copyright"><div align="left">Copyright &copy; Tentex (Malaysia) Sdn. Bhd. Best viewed using <a href="http://www.mozilla.org" target="_new">Firefox</a> or <a href="http://www.google.com/chrome" target="_new">Chrome</a>.<a href="http://webnyou.com/quotation" target="_new"><br />
+                        <td width="49%" align="left" class="copyright"><div align="left">Copyright &copy; SGIS Certification (Malaysia) Sdn. Bhd. Best viewed using <a href="http://www.mozilla.org" target="_new">Firefox</a> or <a href="http://www.google.com/chrome" target="_new">Chrome</a>.<a href="http://webnyou.com/quotation" target="_new"><br />
                         </a></div></td>
                         <td width="31%" align="center" class="copyright"><span>
                           <?php include("counter.php");?>

@@ -592,14 +592,14 @@ else
   </div>
 </div>
 
-!-->
+
 <div id="menu">
 	<ul>
 	  <li style="height:28px;"> 
 	  <a href="../file_manager.php" target="_blank" class="<?php if($arr[count($arr)-1]=='file_manager.php') { ?>current<?php }?>"><img src="../images/arrow.gif" width="10" height="10" border="0"><span class="main_title"> Files Reuse </span></a> <br />
 	  </li>
 	</ul>
-</div>
+</div>!-->
 <div id="menu">
 	<ul>
 	  <li style="height:28px;"> 

@@ -149,7 +149,7 @@ font-size:12px;
                       <td colspan="2" nowrap="nowrap"><a href="mailto:support@webnyou.com" class="style9">Forgot your password?</a></td>
                     </tr>
                     <tr bgcolor="#FFFFFF">
-                      <td colspan="2" nowrap="nowrap"><?php if ($_GET['str']=='wrong'){ ?>                        
+                      <td colspan="2" nowrap="nowrap"><?php if (@$_GET['str']=='wrong'){ ?>                        
                         <p class="style11"><span class="style10">W R O N G - P A S S W O R D - F O U N D !!!</span> <br>
                           <span class="style14">You've entered an invalid password. Please ensure: </span>
                         <p class="style22">1. &quot;Caps Lock&quot; is set correctly as Passwords are case sensitive.<br>

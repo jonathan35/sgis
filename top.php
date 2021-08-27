@@ -57,7 +57,10 @@ function MM_swapImage() { //v3.0
               
               <div align="center">
               <div align="center" style="width:980px; border-bottom:0px solid #F00;">
-              <?php include("nav_top.php");?></div>
+                <div style="background:#41B3A3; margin-top:6px;">
+                  <?php include("nav_top.php");?>
+                </div>
+              </div>
                 <!--<table width="950" border="0" cellpadding="0" cellspacing="0">
                   <tr>
                     <td height="27" align="center" valign="bottom" class="navigation"><div align="center" style="color:#F00;"> 

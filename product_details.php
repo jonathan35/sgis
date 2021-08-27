@@ -24,7 +24,7 @@ function MM_preloadImages() { //v3.0
 <table width="96%" border="0" cellspacing="10" cellpadding="0">
  <tr>
     <td align="left"><div align="left"><span class="heading4"><br />
-    Tentex <sup class="navigation">TM</sup> Decorative Concrete Solutions</span><br />
+    Decorative Concrete Solutions</span><br />
     </div></td>
  </tr> 
     

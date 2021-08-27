@@ -24,7 +24,7 @@ function MM_preloadImages() { //v3.0
 <table width="96%" border="0" cellspacing="10" cellpadding="0">
  <tr>
     <td><span class="heading3"><br />
-      Tentex <sup class="navigation">TM</sup> Products<br />
+      Products<br />
       <?php include("pre_design_header.php")?>
     </span></td>
  </tr> 

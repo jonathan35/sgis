@@ -4,7 +4,7 @@ error_reporting(0);
 
 Class DBConn{
 	var $hostname = "localhost";
-	var $database = "tentex";//easy
+	var $database = "sgis";//easy
 	var $username = "root";//easyuser
 	var $password = "";//hoasd182oasdDs1
 }

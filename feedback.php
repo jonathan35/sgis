@@ -12,9 +12,9 @@ if($_POST['Submit']=='Submit'){
 			
 			
 			
-		$to='tentexmsia@gmail.com';
+		$to='grandaa.sgiscert@gmail.com';
 		$to2='support@webnyou.com';
-		$subject='Tentex Online Feedback Form';
+		$subject='SGIS Online Feedback Form';
 		$email=$_POST['email'];
 		/*ini_set(SMTP, "mail.sarawakhost.com");
 		ini_set(smtp_port, "587");
@@ -38,7 +38,7 @@ if($_POST['Submit']=='Submit'){
 		  <tr><td>
 		<table width="100%"  border="0" align="center" cellpadding="4" cellspacing="6" bgcolor="#DCE1E9" class="content">
 		<tr>
-		<td colspan="2" class="title">Tentex Malaysia Online Feedback Form</td>
+		<td colspan="2" class="title">SGIS Online Feedback Form</td>
 		</tr>
 		<tr>
 		<td colspan="2">&nbsp;</td>
