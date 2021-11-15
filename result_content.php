@@ -69,8 +69,16 @@ if($result_id !=''){
             <td><table width="100%" border="0" cellspacing="0" cellpadding="0" >
               <tr valign="top">
                 <td align="left" valign="top" class="content_text"><br />
-                <?php if($ff_set!=''){
-								echo str_replace("../../photo/","photo/",$ff_set['description']);}?></td>
+                <?php 
+                
+                if($ff_set!=''){
+                  echo str_replace("../../photo/","photo/",$ff_set['description']);
+                }
+                
+                if($_GET['root'] == 'MTYx'){?>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.3994451822537!2d110.35631991475424!3d1.5280797988856323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba70c4d253cab%3A0x44fe0734b9503979!2sSaytech%20General%20Inspection%20Services!5e0!3m2!1sen!2smy!4v1635994474820!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <?php }?>
+                </td>
               </tr>
             </table></td>
           </tr>
